@@ -1,0 +1,21 @@
+{
+  "name": "omnifocus",
+  "version": "1.0.0",
+  "description": "Native Omnifocus app for Windows",
+  "main": "index.js",
+  "scripts": {
+    "before-build": "npm install nativefier -g",
+    "build": "nativefier --name \"Omnifocus\" \"web.omnifocus.com\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivajkin/Omnifocus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivajkin/Omnifocus/issues"
+  },
+  "homepage": "https://github.com/Ivajkin/Omnifocus#readme"
+}
